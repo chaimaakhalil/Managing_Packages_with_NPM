@@ -1,13 +1,25 @@
 {
 	"author": "chaimaa khalil",
 	"name": "fcc-learn-npm-package-json",
+	"description": "A project that does something awesome",
+	"keywords": [
+		"freecodecamp",
+		"chaimaa",
+		"khalil"
+	],
+	"license": "MIT",
+	"version": "1.1.0",
 	"dependencies": {
 		"express": "^4.14.0",
-		"node": "1.1.0"
+		"@freecodecamp/example": "1.1.0"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"build": "package-lock.js"
+	},
+	"engines": {
+		"node": "14.x"
 	},
 	"repository": {
 		"type": "git",
